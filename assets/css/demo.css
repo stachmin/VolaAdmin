@@ -145,6 +145,16 @@ table.dataTable {
     box-shadow: 0 2px 2px rgba(204, 197, 185, 0.5);
 }
 
+.table-panel-body {
+    padding: 10px 15px 9px 15px;
+}
+
+.table-panel-icon{
+	font-size: 26px;
+    font-weight: 200;
+    color: #7ac29a;
+}
+
 /* End dataTables */
 
 /*Start navbar*/
@@ -154,3 +164,25 @@ table.dataTable {
 }
 
 /*End navbar*/
+
+/* Start inputs */
+
+.card label {
+    margin-left: 5px;
+}
+
+.tm-tag.tm-tag-info {
+    color: #a8a7b0;
+    background-color: #fffcf5;
+    border-color: #e0dad0;
+    padding-left: 8px;
+}
+
+.tm-tag .tm-tag-remove {
+    color: #000;
+    font-weight: bold;
+    opacity: .2;
+    margin: 0px 2px 2px 8px;
+}
+
+/*End inputs*/
